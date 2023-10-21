@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ham?serverTimezone=UTC&useSSL=false&characterEncoding=utf8
+    username: 'root'
+    password: '123456'
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false # 禁止大写变小写时自动添加下划线
